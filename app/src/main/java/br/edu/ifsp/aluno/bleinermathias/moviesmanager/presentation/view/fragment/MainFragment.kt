@@ -169,6 +169,7 @@ class MainFragment : Fragment(), OnMovieTileClickListener {
                         sortMoviesInPlace(SortType.BY_RATING)
                         return true
                     }
+
                     else -> return true
                 }
 
